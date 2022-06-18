@@ -1,4 +1,15 @@
-document.getElementById("search").addEventListener("click",function(){
+import navbar from "../components/navbar.js";
+
+let nav = document.getElementById("navbar2");
+nav.innerHTML = navbar()
+
+import footer from "../components/footer.js";
+
+let last = document.getElementById("foot");
+last.innerHTML = footer()
+
+
+document.getElementById("search").addEventListener("click", function () {
     // let container = document.getElementById('cont');
     // container.style.display="block"
     let api = "qCtNBswsyxYYd__VlDLov0BTpF7pd90n16akzQY1ws0";

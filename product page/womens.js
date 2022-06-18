@@ -983,7 +983,7 @@ var container = document.createElement("div");
         cartData.push(el);
         localStorage.setItem("cart",JSON.stringify(cartData));
         // alert("Item added to cart");
-        window.location.href="";
+        window.location.href ="../cart/cart.html";
       }
 
 

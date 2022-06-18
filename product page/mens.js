@@ -582,7 +582,7 @@ var mensData = [
           // console.log(el);
           cartData.push(el);
           localStorage.setItem("cart",JSON.stringify(cartData));
-          window.location.href="";
+          window.location.href="../cart/cart.html";
         }
   
      }

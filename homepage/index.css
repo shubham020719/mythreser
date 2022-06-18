@@ -82,6 +82,12 @@ body{
     font-size: 15.5px;
     color: rgb(76, 76, 76);
 }
+#nav1a a{
+    color: black;
+}
+#nav1b a {
+color: gray;
+}
 
 #nav1b {
     display: flex;
@@ -89,6 +95,16 @@ body{
     font-family: sans-serif;
     font-size: 13px;
     color: gray;
+}
+
+#nav1a>p:hover {
+    background-color: #b7b7b7;
+    cursor: pointer;
+}
+
+#nav1b>h4:hover {
+    background-color: #b7b7b7;
+    cursor: pointer;
 }
 
 #nav2 {
