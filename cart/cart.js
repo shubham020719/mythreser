@@ -1,3 +1,5 @@
+
+
 let data = JSON.parse(localStorage.getItem("cart"));
 
 data.forEach(el => {

@@ -6,7 +6,10 @@ body{
     font-family: 'Gentium Plus', serif;
 }
 /* section one----------- */
-
+a {
+    text-decoration: none;
+    color: white;
+}
 .one{
     
     /* width: 80%; */
