@@ -4,8 +4,8 @@ function navbar() {
             <div id="nav1a">
                 <p><a href="../product page/womendata.html">Women</a></p>
                 <p><a href="../product page/mendata.html">MEN</a></p>
-                <p><a href="">KID</a></p>
-                <p><a href="">LIFE</a></p>
+                <p><a href="../juhi's page/kids.html">KID</a></p>
+                <p><a href="../juhi's page/life.html">LIFE</a></p>
             </div>
             <div id="nav1b">
                 <h4>Signup for Newsletter</h4>
@@ -20,8 +20,8 @@ function navbar() {
                 alt="mythrresa_logo">
             <div id="shopping">
                 <p>SHOPPING BAG</p>
-                <img class="shop"
-                    src="https://raw.githubusercontent.com/yash9444/nordstrom/main/images/shopping-bag.png" alt="">
+                <a href="../cart/cart.html"><img class="shop"
+                    src="https://raw.githubusercontent.com/yash9444/nordstrom/main/images/shopping-bag.png" alt=""></a>
             </div>
 
         </div>
@@ -406,7 +406,7 @@ function navbar() {
         </div>
         
     </div>
-    <hr>`
+    <hr class="lifeandkids">`
 }
 
 export default navbar;

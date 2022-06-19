@@ -4,16 +4,22 @@
 }
 section{
     padding: 5%;
-    /* width: 90%; */
+    /* border: 1px solid red; */
 }
-section>.top{
+.top{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+/* section>top{
     text-align: center;
     display: grid; 
 }
-section>.top>img{
+section>top>img{
     width: 90%;
     margin-left: 4.5rem;
-}
+} */
 section>.top>button{
     width: 160px;
     height: 39px;
@@ -30,7 +36,7 @@ section>.top>button:hover{
 }
 section>hr{
     margin-top: 35px;
-    width: 90%;
+    /* width: 90%; */
     margin-left: 4.4rem;
 }
 section>.middle{
@@ -127,6 +133,15 @@ section>#hr{
     margin-left: 38rem;
     margin-top: -20px;
 }
+#social-logo{
+    display: flex;
+    flex-direction: row;
+ }
+ #social-logo>div{
+    height: 30px;
+    width: 30px;
+ }
+ 
 
 @media (max-width:1484px){
     section>.top{

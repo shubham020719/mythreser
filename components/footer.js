@@ -130,11 +130,19 @@ function footer() {
                     <!-- <img src="images/device.png" alt=""> -->
                     <span>Get our apps</span>
                 </div>
-                <div>
-                    <img src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-png-instagram-logo-camel-productions-website-25.png" alt="">
-                    <img src="https://www.freepnglogos.com/uploads/pinterest-logo-p-png-0.png" alt="">
-                    <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-company-png-logo-5.png" alt="">
+                <div id="social-logo">
+                   <div>
+                   <img src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-png-instagram-logo-camel-productions-website-25.png" alt="">
+                   </div>
+                   <div>
+                   <img src="https://www.freepnglogos.com/uploads/pinterest-logo-p-png-0.png" alt="">
+                   </div>
+                   <div>
+                   <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-company-png-logo-5.png" alt="">
+                    </div>
+                    <div>
                     <img src="https://www.freepnglogos.com/uploads/facebook-logo-13.png" alt="">
+                    </div>
                     <!-- <img src="images/plus.png" alt=""> -->
                 </div>
             </div>

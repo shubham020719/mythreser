@@ -147,3 +147,11 @@ i {
     margin-left: -450px;
     text-align: left;
 }
+#shopping>a>img {
+    height: 30px;
+    margin-left: 5px;
+    width: 30px;
+}
+.hr-below{
+    text-align: center;
+}

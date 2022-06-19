@@ -10,12 +10,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../index.css">
 <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;1,100&display=swap" rel="stylesheet"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+
+<style>
+
+</style>
+
+
+
+
 </head>
 <body>
+  <div id="navbars"></div>
   <div id="info-div">
     <div><img src="https://img.mytheresa.com/media/static/raw/cms/l/DesignerBios_MW_SS21/Valentino/Valentino_2x_20210422162303.jpg?imwidth=600&imdensity=2" alt="">
       <p>Synonymous with innovation and unique craftsmanship, 
@@ -86,8 +96,17 @@
     <div id="product-main-div"></div>
   </div>
 </body>
+<div id="footers"></div>
 </html>
 
 
 
 <script src="./womens.js" type="module"></script>
+<script type="module">
+      
+  import navbar from "../components/navbar.js"
+  import footer from "../components/footer.js"
+  document.getElementById("footers").innerHTML = footer()
+  document.getElementById("navbars").innerHTML = navbar()
+  
+</script>

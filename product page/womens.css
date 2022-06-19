@@ -7,6 +7,14 @@
 body{
     background-color: #fff
 }
+#shopping>a>img{
+    height: 30px;
+    margin-left: 5px;
+    width: 30px;
+  }
+  .lifeandkids{
+    margin: 15px;
+}
 #above-main-pf-div{
     display: flex;
     justify-content: space-between;
@@ -235,3 +243,12 @@ hr{
     font-style: italic;
     /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
+#social-logo{
+    display: flex;
+    flex-direction: row;
+ }
+ #social-logo>div{
+    height: 30px;
+    width: 30px;
+ }
+ 

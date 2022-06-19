@@ -7,14 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="life.css">
+    <link rel="stylesheet" href="../index.css">
+    <style>
+        .lifeandkids{
+            margin: 15px;
+        }
+    </style>
 </head>
 
 <body>
+    <div id="navbars">
+        
+    </div>
     <section>
         <div class="top">
             <img src="https://img.mytheresa.com/media/static/raw/cms/l/Life_HP_2022_CW22/BIG_EN/Big_Week3_LIFE_tablet_1_2x_20220530121415.jpg?imwidth=1024&imdensity=1"
                 alt="">
-            <button class="white">SHOP NOW >></button>
+            <!-- <button class="white">SHOP NOW >></button> -->
         </div>
         <hr>
         <div class="middle">
@@ -68,6 +77,17 @@
             <button class="black">SHOP NOW >></button>
         </div>
     </section>
+
+    <div id="footers"></div>
 </body>
 
 </html>
+<script type="module">
+      
+      import navbar from "../components/navbar.js"
+      import footer from "../components/footer.js"
+      document.getElementById("navbars").innerHTML = navbar()
+      document.getElementById("footers").innerHTML = footer()
+
+
+</script>

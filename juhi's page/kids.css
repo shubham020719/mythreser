@@ -135,3 +135,12 @@ section>button:hover{
         margin-left: 15rem;
     }
 }
+#social-logo{
+    display: flex;
+    flex-direction: row;
+ }
+ #social-logo>div{
+    height: 30px;
+    width: 30px;
+ }
+ 

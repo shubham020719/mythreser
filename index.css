@@ -128,9 +128,10 @@ color: gray;
     font-size: 14px;
 }
 
-#shopping>img {
-    height: 38px;
+#shopping>a>img {
+    height: 30px;
     margin-left: 5px;
+    width: 30px;
 }
 
 #nav3 {
@@ -640,5 +641,14 @@ a {
     color: rgb(3, 0, 10);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#social-logo{
+   display: flex;
+   flex-direction: row;
+}
+#social-logo>div{
+   height: 30px;
+   width: 30px;
+}
+
 
 
