@@ -1,9 +1,10 @@
 # Mythresera Website Clone
 
- Link:- https://ephemeral-narwhal-05c37d.netlify.app/
  
  # Project overview
  The clone website will include features such as product listings with images, descriptions, and prices, search functionality to help users find specific products, shopping cart and checkout process for easy ordering and payment, customer account creation and order tracking, reviews and ratings from previous customers, integration with social media and other marketing channels to promote products and deals, and more.
+ 
+ # Screenshots
  
 ![mythersa](https://user-images.githubusercontent.com/31159055/191819713-8f88633a-e93f-4e72-8229-738b33281bc2.PNG)
 ![Screenshot (4217)](https://user-images.githubusercontent.com/101389168/222085826-48e97e2c-d52c-4cef-a2a2-398d74713084.png)
@@ -17,5 +18,9 @@
 # Technologies
 The clone website will be developed using modern web development technologies such as HTML, CSS, JavaScript,  and will be built with a responsive design to ensure that it is mobile-friendly and accessible on a variety of devices.
 
+# Demo 
+https://ephemeral-narwhal-05c37d.netlify.app/
 
+# conclusion 
+Mythresera Website Clone is a project that involves creating a replica of the Mythresera website, which is an online store that specializes in selling fantasy-themed merchandise. The goal of the project is to recreate the website's user interface, features, and functionality to provide a similar online shopping experience for users.
 
